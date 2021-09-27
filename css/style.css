@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: BEWITCHED;
+    src: url(../font/BEWITCHED-PERSONAL.otf);
+}
+p{
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+h1{
+    font-family: BEWITCHED;
+    font-size: 60px;
+}
+h2{
+    font-family: BEWITCHED;
+    font-size: 40px;
+}
+
+.navigation-bar img{
+    width: 150px;
+    height: auto;
+}
