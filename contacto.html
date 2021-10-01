@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Sabor Colombiano</title>
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Sabor Colombiano</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png">
 </head>
+
 <body>
- <!-- Aquí empieza el encabezado principal que se mantendrá en todas las páginas del sitio web -->
+    <!-- Aquí empieza el encabezado principal que se mantendrá en todas las páginas del sitio web -->
 
-  <div class="navigation-bar">
-	<div id="navigation-container">
-		<a href="index.html"><img src="img/logo.png"></a>
-		<ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="#">Nosotros</a></li>
-			<li><a href="#">Proyectos</a></li>
-				<ul>
-					<li><a href="bogota.html">Bogota</a></li>
-					<li><a href="Bucaramanga.html">Bucaramanga</a></li>
-					<li><a href="Tunja.html">Tunja</a></li>
-					<li><a href="Barranquilla.html">Barranquilla</a></li>
-				</ul>
-			<li><a href="contacto.html">Contacto</a></li>
-		</ul>
-	</div>
-</div>
+    <div class="navigation-bar">
+        <div id="navigation-container">
+            <a href="index.html"><img src="img/logo.png"></a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <ul>
+                    <li><a href="bogota.html">Bogota</a></li>
+                    <li><a href="Bucaramanga.html">Bucaramanga</a></li>
+                    <li><a href="Tunja.html">Tunja</a></li>
+                    <li><a href="Barranquilla.html">Barranquilla</a></li>
+                </ul>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
 
-</header>
+    </header>
 
-  <!-- Aquí está el contenido principal de nuestra página -->
-  <main>
+    <!-- Aquí está el contenido principal de nuestra página -->
+    <main>
 
-	<!-- Contiene un artículo -->
-	<article>
-	  <h1>Título del artículo</h1>
+        <h1>FORMULARIO DE CONTACTO</h1>
 
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
 
-	  <h3>Subsección</h3>
+            </ul>
+        </form>
 
-	  <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+        </aside>
 
-	  <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+    </main>
 
-	  <h3>Otra subsección</h3>
+    <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
 
-	  <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-
-	  <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-	</article>
-
-	<!-- el contenido aparte también se puede anidar dentro del contenido principal -->
-	<aside>
-	  <h2>Mira las ultimas publicacio</h2>
-
-	 
-	</aside>
-
-  </main>
-
-  <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
-
-  <footer>
-	<p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
-  </footer>
+    <footer>
+        <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
+    </footer>
 </body>
+
 </html>
