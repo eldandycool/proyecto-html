@@ -24,3 +24,15 @@ h2{
     width: 150px;
     height: auto;
 }
+
+
+/*CSS Bucaramanga*/
+.columna-img {
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+}
+
+.platos {
+  width: 250px;
+}
