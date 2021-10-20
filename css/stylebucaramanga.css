@@ -26,7 +26,10 @@
     font-family: 'Oswald', sans-serif;
 }
 
-
+.selbucara {
+  margin: 0px;
+  font-size:12px;
+}
 
 
 
@@ -103,4 +106,23 @@ body{
 .imagenes {
   width: 250px;
   height: 250px;
+}
+
+
+
+/*
+formulario bucaramanga
+*/
+.buttonbucara{
+  border-radius: 1px;
+  border-color:black;
+}
+.texto {
+  color: #2c90c6;
+  font-size: 40px;
+  margin: 2% auto;
+  text-align: center;
+  font-family: 'Titan One';
+  text-shadow: 1px 2px 1px  rgba(0,0,0,.5);
+  padding-top: 40px;
 }

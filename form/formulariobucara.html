@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" method="post">
+        <h3>REGISTRO</h3>
+        <h4>Se guardaran sus datos en Base de datos para promociones del restaurante</h4>
+        <fieldset>
+          <input
+            placeholder="Su Nombre"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+            class="username"
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Su Correo Electronico"
+            type="email"
+            tabindex="2"
+            required
+            class="email"
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Escriba una opinion del portal...."
+            tabindex="5"
+            required
+            class="message"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+            class="submit">
+			ENVIAR
+			</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- loader -->
+    <div class="loader">
+      <img
+        src="https://media.giphy.com/media/MEiZ5h8lOkM7rwideE/giphy.gif"
+        alt=""
+      />
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="scriptbucara.js"></script>
+  </body>
+</html>
