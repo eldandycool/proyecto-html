@@ -28,9 +28,14 @@
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
 		media="screen">
-	<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	<script src="js/scripts.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("user_N1QLAPwmzBi4e4Kiszev7");
+		})();
+	</script>
 </head>
 <!-- body -->
 
@@ -207,9 +212,85 @@
 		</div>
 	</header>
 
-	<!-------------------------Prueba!!!!---------------------->
+	<!-------------------------Formulario!!!!---------------------->
+	<h2 style="font-size: 50px; text-align: center;">Fomulario de registro de tu restaurante</h2>
+	<div class="row" style="padding: 50px;">
+		<div class="col-md-8 mr-auto">
 
-	
+			<form action="">
+				<div class="contact_form-container">
+					<div>
+						<div>
+							<input type="text" id="toNameR" minlength="10" maxlength="30" placeholder="Nombre completo"
+								required>
+						</div>
+						<div>
+							<input type="text" id="toNumberR" placeholder="Número de contacto">
+						</div>
+						<div>
+							<input type="email" id="toEmailR" required placeholder="Correo electronico">
+						</div>
+
+
+						<div class="frm-row">
+							<div class="section colm colm6">
+								<label for="cantidad" class="field-label">Cantidad de platos</label>
+								<label style="text-align: center;" for="cantidad" class="field prepend-icon">
+									<input type="number" id="cantidadR" required min="1" max="15" placeholder="-">
+
+								</label>
+							</div>
+						</div>
+						<div>
+							<label for="fechaHora" class="field-label">Fecha de la inauguracion</label>
+							<label style="text-align: center;" for="fechaHora" class="field prepend-icon">
+								<input type="datetime-local" id="fechaR" value="fecha" name="dia" min="2021-01-01"
+									max="2021-12-31">
+						</div>
+
+						</br>
+
+						<div>
+							<label for="servicios">En que ciudad estas:</label>
+							<select type="text" name="servicios" id="toServiceR" placeholder="Evento">
+								<option value="-">-</option>
+								<option value="cumpleaños">Bogotá</option>
+								<option value="aniversario">Bucaramanga</option>
+								<option value="fiesta infantil">Tunja</option>
+								<option value="Propuestas">Barranquilla</option>
+								
+								<option value="Ninguno">Otra</option>
+							</select>
+						</div>
+						<br>
+						<br>
+						<textarea name="coments" id="toComentR" rows="10" cols="50"
+							placeholder="Descripcion de tu restaurante" required></textarea>
+						<br>
+						<br>
+						<div class="checkbox">
+							<label for="check"><input type="checkbox" id="data" required /> <span>Acepto la
+									politica de
+									tratamiento de datos personales</span></label>
+						</div>
+
+
+						<div class="mt-5">
+							<button type="submit" onclick='sendReservas()'>
+								Enviar
+							</button>
+						</div>
+					</div>
+
+				</div>
+
+			</form>
+		</div>
+
+	</div>
+	</div>
+
+
 
 
 
@@ -234,13 +315,13 @@
 			<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 
-			
-				<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script type="text/javascript">
-(function() {
-emailjs.init("user_N1QLAPwmzBi4e4Kiszev7");
-})();
-</script>
-</body >
 
-</html >
+			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+			<script type="text/javascript">
+				(function () {
+					emailjs.init("user_N1QLAPwmzBi4e4Kiszev7");
+				})();
+			</script>
+</body>
+
+</html>
