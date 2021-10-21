@@ -8,18 +8,29 @@
     src: url(../font/BEWITCHED-PERSONAL.otf);
 }
 
-
+.title{ 
+  font-family: BEWITCHED;
+  font-size: 60px;
+  color: #405482;
+  background-color: #EEEDED;
+  text-align: center;
+}
 .izquierda{
   background-color:#a7dda7;
-  height: 69vh;
+  height: 76vh;
   width: 50%;
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center;
+  margin: 0 0 25px; 
+  padding: 20px; 
 }
 
 .derecha{
   background-color:#a7dda7 ;
   background-size: cover;
   background-position: center;
-  height: 69vh;
+  height: 76vh;
   width: 50%;
 }
 
@@ -48,15 +59,30 @@
   border-radius: 100%;
 }
 
-h1{;
+h1{
   font-size: 60px;
   font-family: BEWITCHED;
-  width: 50%;
-  margin: auto;
-  margin-left: 40px;
+  font-size: 18px; 
+  font-weight: 400; 
   text-align: center;
-  margin-left: 80px;
+  margin: 0 0 25px; 
+  padding: 20px; 
 }
+
+.parrafo{
+  font-family: BEWITCHED; 
+  color: #ffffff; 
+  font-size: 50px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #889ccf; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;
+  }
 
 p{
   font: size 20px;
@@ -68,15 +94,21 @@ p{
   margin-left: 80px;
 }
 
+
 .izquierda2{
   background-color:#EEEDED;
-  height: 73vh;
+  height: 76vh;
   width: 50%;
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center;
+  margin: 0 0 25px; 
+  padding: 20px; 
 }
 
 .derecha2{
   background: #EEEDED;
-  height: 73vh;
+  height: 76vh;
   width: 50%;
 }
 #pantalla-dividida2{
@@ -105,17 +137,26 @@ p{
 
 .izquierda3{
   background-color: #a7dda7;
-  height: 73vh;
+  height: 76vh;
   width: 50%;
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center;
+  margin: 0 0 25px; 
+  padding: 20px; 
 }
 
 .derecha3{
   background-color: #a7dda7;
-  height: 73vh;
+  height: 76vh;
   width: 50%;
 }
 #pantalla-dividida3{
   display: flex;
+}
+.maizal{
+  color: #6371ee;
+  text-align: center;
 }
 
 .circulo3{
@@ -131,8 +172,4 @@ p{
   width: 100%;
   height: 100%;
   border-radius: 100%;
-}
-.maiz{
-  color: #fdd109
-  text-align: center;
 }
