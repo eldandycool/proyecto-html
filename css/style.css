@@ -23,3 +23,55 @@ h2 {
     width: 150px;
     height: auto;
 }
+
+.seccion-completa {
+    margin: 50px;
+    padding: 0 1rem;
+    justify-content: left;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: 600;
+}
+
+.seccion-completa img {
+    width: 550px;
+    border-radius: 15px;
+}
+
+.seccion-completa h3 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 110px;
+    background: -webkit-linear-gradient(left top, red, yellow);
+    background: linear-gradient(to bottom right, blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.seccion-ciudad {
+    padding: 30px;
+    display: flex;
+    width: 90%;
+    height: 450px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 500px;
+    background-color: rgba(211, 211, 211, 0.671);
+    border: 1px solid #405482;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px -6px black;
+}
+
+.image-ciudad {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+.texto-ciudad {
+    text-align: left;
+    width: 50%;
+    top: 50%;
+    margin-top: 80px;
+    padding-right: 80px;
+}
