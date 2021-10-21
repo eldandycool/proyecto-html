@@ -2,21 +2,24 @@
     font-family: BEWITCHED;
     src: url(../font/BEWITCHED-PERSONAL.otf);
 }
-p{
+
+p {
     font-family: 'Open Sans';
     font-size: 18px;
 }
-h1{
+
+h1 {
     font-family: BEWITCHED;
     font-size: 60px;
     color: #405482;
 }
-h2{
+
+h2 {
     font-family: BEWITCHED;
     font-size: 40px;
 }
 
-.navigation-bar img{
+.navigation-bar img {
     width: 150px;
     height: auto;
 }
