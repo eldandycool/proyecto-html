@@ -1153,5 +1153,21 @@ margin-right: 10px;
 .nice-select {
     display: none;
 }
+
+/* formulario*/
+.formulari {
+    margin: auto;
+    padding-left: 90px;
+    padding-top: 50px;
+    text-align: left;
+
+    background-color:  rgba(178, 178, 178, 0.3);
+    color: #000;
+}
+
+input, select, textarea{
+    width: 500px !important;
+
+}
  /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/

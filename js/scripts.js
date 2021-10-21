@@ -1,3 +1,4 @@
+
 function sendReservas(params) {
     var tempParams1 = {
         from_name: document.getElementById("toNameR").value,
@@ -9,7 +10,7 @@ function sendReservas(params) {
         fecha: document.getElementById("fechaR").value,
     }
 
-    emailjs.send('service_9u51r7p', 'template_34kqw69', tempParams1)
+    emailjs.send('service_u3c243x', 'template_ss9ekej', tempParams1)
         .then(function (res) {
             console.log("sucess", res.status);
         })

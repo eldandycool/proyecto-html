@@ -31,11 +31,11 @@
 	<script src="js/scripts.js"></script>
 
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script type="text/javascript">
-(function() {
-emailjs.init("user_cdc3NjQnGHSJsj9tL8mox");
-})();
-</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("user_cdc3NjQnGHSJsj9tL8mox");
+		})();
+	</script>
 </head>
 <!-- body -->
 
@@ -179,10 +179,7 @@ emailjs.init("user_cdc3NjQnGHSJsj9tL8mox");
 											<p>De los mejores climas de Colombia con muchas cosas por disfrutar,
 												hermosos pueblos y la comida directamente de las huertas de nuestros
 												campesinos.</p>
-											<!--<form class="Vegetable">
-                <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
-                <button class="Search_btn">Search</button>
-              </form>-->
+											
 											<a href="#">Tu restaurante</a> <a href="#">Ver restaurantes</a>
 										</div>
 									</div>
@@ -215,9 +212,9 @@ emailjs.init("user_cdc3NjQnGHSJsj9tL8mox");
 	<!-------------------------Formulario!!!!---------------------->
 	<h2 style="font-size: 50px; text-align: center;">Fomulario de registro de tu restaurante</h2>
 	<div class="row" style="padding: 50px;">
-		<div class="col-md-8 mr-auto">
+		<div class="col-md-8 mr-auto ">
 
-			<form action="">
+			<form action="" class="formulari">
 				<div class="contact_form-container">
 					<div>
 						<div>
@@ -234,15 +231,16 @@ emailjs.init("user_cdc3NjQnGHSJsj9tL8mox");
 
 						<div class="frm-row">
 							<div class="section colm colm6">
-								<label for="cantidad" class="field-label">Cantidad de platos</label>
+								<br>
+								<label for="cantidad" class="field-label">Cantidad de platos</label><br>
 								<label style="text-align: center;" for="cantidad" class="field prepend-icon">
 									<input type="number" id="cantidadR" required min="1" max="15" placeholder="-">
 
 								</label>
 							</div>
 						</div>
-						<div>
-							<label for="fechaHora" class="field-label">Fecha de la inauguracion</label>
+						<div><br>
+							<label for="fechaHora" class="field-label">Fecha de la inauguracion</label><br>
 							<label style="text-align: center;" for="fechaHora" class="field prepend-icon">
 								<input type="datetime-local" id="fechaR" value="fecha" name="dia" min="2021-01-01"
 									max="2021-12-31">
@@ -252,6 +250,7 @@ emailjs.init("user_cdc3NjQnGHSJsj9tL8mox");
 
 						<div>
 							<label for="servicios">En que ciudad estas:</label>
+							<br>
 							<select type="text" name="servicios" id="toServiceR" placeholder="Evento">
 								<option value="-">-</option>
 								<option value="cumpleaños">Bogotá</option>
