@@ -13,7 +13,7 @@ body{
   background-color:#EEEDED;
   font-size:14px;
   line-height:20px;
-  color:#333
+  color:rgb(0, 0, 0)
   }
 img{
   max-width:100%;
@@ -22,10 +22,11 @@ img{
 }
 
 .h1{ 
-  font-family: BEWITCHED;
+  font-family: BEWITCHED !important;
   font-size: 60px;
-  color: #405482;
-  background-color: #EEEDED
+  color: #405482 !important;
+  background-color: #EEEDED;
+  text-align: center;
 }
 
 h2{
@@ -79,7 +80,7 @@ h2{
     grid-template-rows: auto auto;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
-  }
+  }  
   
   .divider {
     height: 1px;
@@ -99,14 +100,16 @@ h2{
   
   .label.cc-light {
     opacity: 0.6;
+    background-color: #EEEDED;
   }
   
-  .motto-wrap {
+  .motto- wrap {
     width: 80%;
     margin-right: auto;
     margin-bottom: 85px;
     margin-left: auto;
     text-align: center;
+    background-color: #EEEDED;
   }
   
   .about-grid {
@@ -133,6 +136,7 @@ h2{
     grid-template-areas: ". .";
     -ms-grid-columns: 2fr 40px 1fr;
     grid-template-columns: 2fr 1fr;
+    background-color: #EEEDED;
   }
   
   .work-heading {
@@ -147,6 +151,7 @@ h2{
     text-decoration: none;
     text-transform: none;
     text-shadow: 0 0 0 #000;
+    background-color: #EEEDED;
   }
   
   .text-block {
@@ -162,6 +167,7 @@ h2{
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+    background-color: #EEEDED;
   }
   
   .grid-2 {
@@ -169,6 +175,7 @@ h2{
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+    background-color: #EEEDED;
   }
   
   
@@ -239,7 +246,6 @@ h2{
       margin-right: 15px;
       margin-left: 15px;
     }
-  
     .section.cc-store-home-wrap {
       margin-right: 15px;
       margin-left: 15px;
@@ -258,6 +264,7 @@ h2{
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
+    background-color: #EEEDED;
   }
   
   #w-node-c3e0fb66-ddf8-be29-c2e8-b1a26cbc5c1e-82dea43c {
@@ -267,11 +274,13 @@ h2{
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
+    background-color: #EEEDED;
   }
   
   #w-node-c3e0fb66-ddf8-be29-c2e8-b1a26cbc5c28-82dea43c {
     -ms-grid-column-align: auto;
     justify-self: auto;
+    background-color: #EEEDED;
   }
   
   
